@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
@@ -16,3 +17,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+=======
+# Leetcode
+Explicação e resolução de perguntas de exercícios do leetcode.
+>>>>>>> c188c30bca8152d2d1c3c3dfc99940b2b4bb7a8a
