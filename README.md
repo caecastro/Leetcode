@@ -1,23 +1,21 @@
-<<<<<<< HEAD
-## Getting Started
+# Leetcode Solutions Repository
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository contains my solutions to various Leetcode exercises.  
+The goal is not to provide fully functional code ready to run with external inputs, but rather to share how I approached each problem and the reasoning behind my answers.
 
-## Folder Structure
+Leetcode exercises usually provide parameters externally, so I am not including those in the code.  
+This means the solutions here are mainly for reference — to check correctness and understand the thought process — rather than for direct execution.
 
-The workspace contains two folders by default, where:
+## 📂 Project Structure
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+The repository is organized into three folders based on problem difficulty:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **easy/** → Solutions to easier problems
+- **medium/** → Solutions to intermediate problems
+- **hard/** → Solutions to more challenging problems
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## ⚠️ Note
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# Leetcode
-Explicação e resolução de perguntas de exercícios do leetcode.
->>>>>>> c188c30bca8152d2d1c3c3dfc99940b2b4bb7a8a
+- These solutions are intended for learning and reference purposes only.
+- They are not designed to be directly runnable without the Leetcode environment.
+- Feel free to explore the code to see different approaches and verify correctness.
