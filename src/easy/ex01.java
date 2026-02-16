@@ -35,10 +35,29 @@ Constraints:
 
  */
 
-package easy;
+import java.util.HashMap;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+        // Criamos um HashMap para armazenar os valores já vistos e seus índices
+        HashMap<Integer, Integer> map = new HashMap<>();
         
+        // Percorremos o array uma vez
+        for (int i = 0; i < nums.length; i++) {
+            // Calculamos o complemento necessário para atingir o target
+            int complemento = target - nums[i];
+            
+            // Se o complemento já foi visto antes, encontramos a solução
+            if (map.containsKey(complemento)) {
+                // Retornamos os índices do complemento e do número atual
+                return new int[] { map.get(complemento), i };
+            }
+            
+            // Caso contrário, armazenamos o número atual e seu índice no HashMap
+            map.put(nums[i], i);
+        }
+        
+        // O problema garante que sempre haverá uma solução, então este return é apenas para compilar
+        return null;
     }
 }
